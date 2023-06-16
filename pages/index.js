@@ -16,7 +16,6 @@ export default function Home() {
     <>
       <h1> Simple Integer Calculator </h1>
       <h3> By: Matteo Grutta, John De Appolonia, Oleksandra Luchakova</h3>
-      <p> sample text </p>
       <CalcForm></CalcForm>
     </>
   )
