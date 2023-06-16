@@ -1,3 +1,1 @@
-export function add(A, B) {
-    return Number(A) + Number(B);
-}
+// Functionality to be added soon
