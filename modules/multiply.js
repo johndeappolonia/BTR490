@@ -1,1 +1,3 @@
-// Functionality to be added soon
+export function multiply(A, B) {
+    return A * B;
+}
