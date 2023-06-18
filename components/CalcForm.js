@@ -1,9 +1,9 @@
 import { useForm } from 'react-hook-form';
 import { useEffect } from 'react';
 import { add } from '@/modules/add';
+import { multiply } from '@/modules/multiply';
 // Uncomment below when functionality added
 // import { subtract } from '@/modules/subtract';
-// import { multiply } from '@/modules/multiply';
 
 export default function CalcForm() {
     
@@ -39,7 +39,7 @@ export default function CalcForm() {
             sign = '-'
         }
         else if(e.operation == "mult") {
-            // Functionality to be added
+            result = multiply(e.valueA, e.valueB);
             sign = '*'
         }
         alert(`${e.valueA} ${sign} ${e.valueB} = ${result}`)

@@ -1,3 +1,4 @@
 {
+  "eslint.workingDirectories": [],
   "extends": "next/core-web-vitals"
 }
