@@ -1,9 +1,9 @@
 import { useForm } from 'react-hook-form';
 import { useEffect } from 'react';
-import { add } from '@/modules/add';
-import { multiply } from '@/modules/multiply';
+const add = require('../modules/add')
+const multiply = require('../modules/multiply')
 // Uncomment below when functionality added
-// import { subtract } from '@/modules/subtract';
+// const subtract = require('../modules/subtract')
 
 export default function CalcForm() {
     

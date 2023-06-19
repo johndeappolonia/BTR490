@@ -1,4 +1,4 @@
-const { multiply } = require('../modules/multiply.js');
+const multiply = require('../modules/multiply.js');
 
 test('multiply two positive numbers correctly', () => {
     const result = multiply(5, 10);
