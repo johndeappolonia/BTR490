@@ -2,8 +2,7 @@ import { useForm } from 'react-hook-form';
 import { useEffect } from 'react';
 const add = require('../modules/add')
 const multiply = require('../modules/multiply')
-// Uncomment below when functionality added
-// const subtract = require('../modules/subtract')
+const subtract = require('../modules/subtract')
 
 export default function CalcForm() {
     
@@ -35,7 +34,7 @@ export default function CalcForm() {
             sign = '+'
         } 
         else if(e.operation == "sub") {
-            // Functionality to be added
+            result = subtract(e.valueA, e.valueB);
             sign = '-'
         }
         else if(e.operation == "mult") {
