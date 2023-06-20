@@ -1,1 +1,4 @@
-// Functionality to be added soon
+function subtract(A, B) {
+    return Number(A) - Number(B);
+} 
+module.exports = subtract;
