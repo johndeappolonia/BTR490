@@ -16,7 +16,7 @@ on:
 
 jobs:
   lint-and-tests:
-    name: ESLint
+    name: ESLint and Unit Tests
     runs-on: ubuntu-latest
 
     steps:
