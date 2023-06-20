@@ -15,7 +15,7 @@ on:
       - '*'
 
 jobs:
-  lint and test:
+  lint-and-tests:
     name: ESLint
     runs-on: ubuntu-latest
 
