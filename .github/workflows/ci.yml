@@ -39,4 +39,4 @@ jobs:
         run: npm run lint
 
       - name: Install node dependencies and run Tests
-        run: npm run test
+        run: npm run test --forceExit
